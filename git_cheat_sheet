@@ -18,3 +18,5 @@ $ git reset [file]
 
 $ git commit -m "[descriptive message]"
 Records file snapshots permanently in version history
+
+$ git rebase -i HEAD~[# of commits want to squash]
